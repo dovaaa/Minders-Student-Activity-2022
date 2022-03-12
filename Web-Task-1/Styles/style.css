@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: #2a2323;
+
+    
+}
+
+div {
+    padding: auto;
+    margin:auto;
+}
+
+.containImg {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    object-fit: contain;
+}
+
+.whiteText{
+    /* given to every white text */
+    color: white;
+}
+.greyText{
+    color: #707070;
+}
+.beigeText{
+    color: #8c7d70;
+}
+
+h1{
+ margin: auto;
+ padding: 10px;
+ text-align: center;
+ 
+}
+
+h6{
+text-align: center;
+margin: auto;
+padding-top: 15px;
+padding: auto;
+}
+
+div.footer{
+    border: solid white 1px;
+}
+footer{
+    background-color: black;
+}
+footer>p{
+    background-color: black;
+    display: inline-block;
+}
+
+.leftAlign{
+    
+    text-align: left;
+    
+}
+.rightAlign{
+    
+    text-align: right;
+    
+}
+
+footer>p.floatRight{
+    float: right;
+} 
+
+table {
+    
+    margin: auto;
+    padding-top: 50vh;
+    padding: auto;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 10vh ;
+  }
+  
+ th {
+     /* bg color to header only */
+    background-color: #543723;
+    text-align: left;
+    padding-left: 7px;
+    
+    
+  }
+
+  th:first-child{
+    border-radius: 10px 0px 0px ;
+  }
+
+  tr:last-child>td:last-child{
+    border-radius: 0px 0px 10px ;
+  }
+
+  td{
+      text-align: center;
+      padding: 5px;
+      
+  }
+  
+
+  tr:nth-child(odd) td {
+      /* bg color to every odd row */
+    background-color: #543723;
+  }
+
+  tr>th{
+      /*trying to vertical align as task  */
+    padding-top: 12px;
+    vertical-align: text-top;
+  }
+  
